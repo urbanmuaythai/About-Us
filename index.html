@@ -25,6 +25,7 @@ a:focus-visible{outline:3px solid var(--gold);outline-offset:5px}
 .brand span{color:#ff657b}
 .eyebrow,.label,.footer-note,.tag{font-family:'JetBrains Mono',monospace;font-size:.875rem;letter-spacing:.1em;text-transform:uppercase}
 .top .label{color:var(--muted);font-size:.75rem}
+.hero-band{background:linear-gradient(rgba(10,12,23,.55),rgba(10,12,23,.93) 80%),url(images/sharing-the-magic.jpg) center 20%/cover no-repeat}
 .hero{padding-block:56px 36px}
 .eyebrow{color:var(--gold);margin-bottom:16px}
 h1{font-size:clamp(3rem,8vw,5.5rem)}
@@ -49,6 +50,8 @@ main{padding-block:8px 60px}
 .embed-frame{position:relative;width:100%;height:min(80vh,820px);margin-top:20px;border-radius:6px;overflow:hidden;border:1px solid var(--line);background:#fff}
 .embed-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 @media(max-width:640px){.embed-frame{height:70vh}}
+.gallery{margin-top:22px;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.gallery img{width:100%;height:230px;object-fit:cover;border-radius:4px;border:1px solid var(--line);display:block}
 .vision{margin-top:6px;padding:44px 40px;background:var(--panel);border:1px solid var(--line);border-radius:6px;text-align:center}
 .vision .label{color:var(--gold);display:block;margin-bottom:16px}
 .vision p{font-family:'Bebas Neue',sans-serif;letter-spacing:.02em;color:var(--cream);font-size:clamp(1.6rem,4.5vw,2.5rem);line-height:1.2;max-width:22ch;margin-inline:auto}
@@ -72,12 +75,14 @@ footer{border-top:1px solid var(--line);padding-block:25px 30px}
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
+<div class="hero-band">
 <header class="top"><div class="top-inner"><div class="brand">URBAN <span>MUAYTHAI</span></div><div class="label">Miami · Gold Coast</div></div></header>
 
 <div class="wrap hero">
 <p class="eyebrow">About us</p>
 <h1>OUR ORIGIN<br><span>STORY.</span></h1>
 <p class="byline">Told by founder <strong>Richard Walsh</strong></p>
+</div>
 </div>
 <div class="stripe" aria-hidden="true"></div>
 
@@ -111,6 +116,14 @@ footer{border-top:1px solid var(--line);padding-block:25px 30px}
 <p>I met Melissa, who is now my wife, in 2001, where we forged an unbreakable friendship and training partnership that saw her go on to win 23 of 25 fights, and win the Amateur World Title.</p>
 <p>We enjoyed being part of the community, and we were part of the lifestyle that is Muay Thai — the camaraderie, the great memories, being part of a fight team that was successful on every level, all whilst feeling on top of the world with health and fitness. We wanted to share this addictive sport with everyone, and be part of each fighter's journey so they too could experience what we had.</p>
 <p class="pull">This is what we call the "Magic of Muaythai".</p>
+<div class="gallery">
+<img src="images/arm-raised.jpg" alt="Melissa Walsh celebrating a win in the ring, arm raised" loading="lazy">
+<img src="images/will-to-succeed.jpg" alt="Melissa Walsh competing in the ring" loading="lazy">
+<img src="images/oh-what-a-feeling.jpg" alt="Melissa Walsh competing in the ring" loading="lazy">
+<img src="images/people-you-meet.jpg" alt="Melissa Walsh with a fellow competitor" loading="lazy">
+<img src="images/focus-on-what-you-want.jpg" alt="Melissa Walsh carrying the Australian flag" loading="lazy">
+<img src="images/bfogoals-come-true.jpg" alt="Richard and Melissa Walsh on the podium" loading="lazy">
+</div>
 </article>
 
 <article class="chapter">
@@ -141,6 +154,12 @@ footer{border-top:1px solid var(--line);padding-block:25px 30px}
 <h2>Why we do this</h2>
 <p>We want everyone to be happy and feel like they belong from day one. We want to provide a community where new lifelong friendships are made — a place where you're able to become the best version of you, both physically and mentally. Whether a person competes in Muaythai or not is irrelevant, as each person can feel successful on many other levels, whether that's through our unique grading system, the Urban Warrior Challenge, or just regular training.</p>
 <p>One thing is for sure, and we see it so many times over within our gym: the transformation it makes to everyday people's lives. We see people, from kids to adults, come in lacking confidence and communication skills, and grow rapidly from a system that focuses on inclusion, teamwork, camaraderie and mental resilience.</p>
+<div class="gallery">
+<img src="images/knee-action.jpg" alt="Muay Thai sparring at Urban Muaythai" loading="lazy">
+<img src="images/padwork.jpg" alt="Pad work training at Urban Muaythai" loading="lazy">
+<img src="images/group-crouch.jpg" alt="Urban Muaythai members after training" loading="lazy">
+<img src="images/coach-chat.jpg" alt="Coach and member at Urban Muaythai" loading="lazy">
+</div>
 </article>
 
 </div>
